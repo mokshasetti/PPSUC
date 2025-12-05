@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+	int x;
+	printf("Enter a number:");
+	scanf("%d",&x);
+	if(x<3)
+	{
+		printf("LIGHT");
+	}
+	else if(x>=3 && x<7)
+	{
+		printf("MODERATE");
+	}
+	else
+	{
+		printf("HEAVY");
+	}
+	return 0;
+}
